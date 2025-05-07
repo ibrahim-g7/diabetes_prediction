@@ -53,7 +53,9 @@ All models were evaluated using 5-fold cross-validation to ensure robust perform
 ### Performance Metrics
 The models were evaluated using two key metrics:
 
-1. **F1-Score (Macro)**: This metric provides a balanced measure of precision and recall, especially important for multi-class classification with potentially imbalanced classes.Running instructions Train) | F1-Score (Test) | Accuracy (Train) | Accuracy (Test) |
+1. **F1-Score (Macro)**: This metric provides a balanced measure of precision and recall, especially important for multi-class classification with potentially imbalanced classes.
+
+| Model                               | F1-Score (Train) | F1-Score (Test) | Accuracy (Train) | Accuracy (Test) |
 |-------------------------------------|------------------|-----------------|------------------|-----------------|
 | Logistic Regression                 | 0.760            | 0.754           | 0.761            | 0.756           |
 | Linear SVC                          | 0.708            | 0.705           | 0.711            | 0.708           |
